@@ -6,8 +6,9 @@ WORKDIR /app
 # 复制 package 文件
 COPY package*.json ./
 
-# 安装依赖
-RUN npm ci --only=production && \
+# 禁用 husky 的 prepare 脚本，然后安装依赖
+RUN npm pkg delete scripts.prepare && \
+    npm ci && \
     npm cache clean --force
 
 # 复制源代码
