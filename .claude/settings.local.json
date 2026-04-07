@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/seantang/Documents/Code/supersoloer/chat.supersoloer.com/docker-entrypoint.sh)",
+      "Bash(chmod +x /Users/seantang/Documents/Code/supersoloer/chat.supersoloer.com/deploy.sh)",
+      "Bash(ls -la *.md)",
+      "Bash(chmod +x /Users/seantang/Documents/Code/supersoloer/chat.supersoloer.com/init-databases.sh)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+# Docker 部署文件
+docker-compose.yml
+docker-compose.dev.yml
+Dockerfile
+Dockerfile.dev
+.dockerignore
+docker-entrypoint.sh
+deploy.sh
+Makefile
+DOCKER_GUIDE.md
+README.docker.md
+
+# 环境变量示例
+.env.docker
+
+# 备份目录
+backups/
